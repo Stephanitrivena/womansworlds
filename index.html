@@ -1,0 +1,142 @@
+<HTML>
+<head>
+	<meta charset="UTF-8">
+	<title>Saveeti | Best Solutions for your skin  </title>
+	<link rel="shortcut icon" href="image/retro.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/
+font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+
+<div class="container">
+	<div class="header">
+		<div class="slideshow-container">
+			<div class="mySlides Fade">
+					<img src="image/Saveeti.png" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/somebymi.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/hera.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/drjart.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/laneige.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/mac.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/ryoe.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/innisfree.jpg" style="width:100%; height: 500px;">
+			</div>
+			<div class="mySlides Fade">
+					<img src="image/P7.jpg" style="width:100%; height: 500px;">
+			</div>
+		</div>
+		<div style="text-align: center;">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+		</div>
+</div>
+
+	<div class="topnav" id="myTopnav">
+		<a href="index.html"> Dashboard </a>
+
+		<div class="dropdown">
+				<button class="dropbtn"> Skincare <i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<a href="Peeling.html" target="_blank" >AHA.BHA.PHA Peeling </a>
+					<a href="Hyaluronic.html" target="_blank"> Hyaluronic Acid </a>
+					<a href="Niacinamide.html" target="_blank"> Niacinamide</a>
+					<a href="Retinol.html" target="_blank"> Retinol 1% in Squalane</a>
+					</div>
+			</div>
+			<a href="biodata.html" target="_blank">Biodata ✍ </a>
+			<a href="tabel.html" target="_blank">Top 10 Brands 🌍</a>
+			<a href="contact.html" target="_blank">Contact Person</a>
+				<a href="javascript:void(0);" style="font-size:15px" class="icon" onclick="myFunction()">
+				&#9776;</a> 
+			</div>
+
+	<div class="main">
+	<div class="col-1">
+		<p><h4> model after used Saveeti Skincare </h4></p>
+		<img src="image/glowing.png">
+	</div>
+	<div class="col-1">
+		<p><h4>model using Retinol 1% </h4></p>
+		<img src="image/model2.png">
+	</div>
+	<div class="col-1">
+		<p><h4> model using AHA.BHA.PHA Peeling </h4></p>
+		<img src="image/model3.png">
+	</div>
+
+	<div class="col-2">
+		<h3>About <b><i>Saveeti</i></b> </h3>
+		<p><center>Born in 2020, SAVEETI was inspired by our friends who are looking for the Highest Quality, Halal Certified Skincare & Makeup products for their active lifestyle.
+SAVEETI aims to fulfill the need of the young & smart generation who are not only want to look good but also find it important to use Best Products with Accessible Price ❤
+We created SAVEETI, because we believe that there is always something for Us!
+Deep Research, Best Formulation with the latest technology, Highest grade Ingredients, & Halal Certified<center></center>
+
+
+<p><center>Mention,Tag,or simply just say Hi! everywhere you meet Us</center>
+<center>@Saveeti_ofc #Saveeti #2getherwithSaveeti</center></p>
+	</div>
+
+</div>
+	<div class="footer">
+ 		<p><h2>20200121035_Stephani Trivena_Sistem Informasi 2/2</h2></p>
+ 	</div>
+
+ </div>
+
+<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if(x.className === "topnav") {
+				x.className += " responsive";	
+		}else{
+				x.className = "topnav";
+		}	
+}
+</script>
+
+<script>
+	var slideIndex=0;
+	showSlides ();
+
+function showSlides(){
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+	for ( i = 0; i<slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+	slideIndex++;
+	if(slideIndex > slides.length) {slideIndex = 1}
+		for (i=0; i < dots.length; i++) {
+		dots[i].className.replace(" active ","");
+		}
+	slides[slideIndex-1].style.display = "block";
+	dots[slideIndex-1].className += " active ";
+	setTimeout (showSlides, 4000);
+}
+</script>
+
+
+</body>
+</HTML>		
